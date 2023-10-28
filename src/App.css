@@ -1,0 +1,53 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+.btnCategorias {
+  padding: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border: 2px 2px black
+}
+
+.cardContainer {
+  margin: 10px;
+  text-align: center;
+  margin-top: 20px
+  
+}
+
+.logo {
+  width: 110px;
+}
+
+.cardProduct {
+  border-radius: 10px;
+  padding: 10px;
+  overflow: hidden;
+  color: rgb(0, 0, 0);
+  background-color: rgba(9, 12, 221, 0.521);
+  
+}
+
+.cardImage{
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all 0.5s;
+    padding-left: 20px;
+}
+
+.cardImage:hover{
+transform: scale(1.1);
+
+}
+
+.css-k008qs {
+  background-color: rgb(12, 1, 73);
+}
